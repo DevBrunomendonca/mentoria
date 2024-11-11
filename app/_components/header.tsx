@@ -9,10 +9,12 @@ const Header = () => {
           14:57
         </span>
         <p className="text-white text-xs ">Por tempo limitado</p>
-        <Button className="text-white text-xs p-0 font-light" variant="link">
-          Garantir agora
-          <ArrowUpRight size={16} />
-        </Button>
+        <a href="https://pay.kiwify.com.br/QR59cLu" target="_blank">
+          <Button className="text-white text-xs p-0 font-light" variant="link">
+            Garantir agora
+            <ArrowUpRight size={16} />
+          </Button>
+        </a>
       </div>
     </header>
   );

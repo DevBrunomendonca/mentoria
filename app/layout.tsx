@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Sora } from "next/font/google";
 import Header from "./_components/header";
+import Footer from "./_components/footer";
+import ButtonWtpp from "./_components/button-wtpp";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -20,10 +22,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={`${sora.className}`}>
         <Header />
-        {children}
+        <main>
+          {children}
+          <ButtonWtpp />
+        </main>
+        <Footer />
       </body>
     </html>
   );
