@@ -5,7 +5,7 @@ const ButtonWtpp = () => {
     <a
       href="https://wa.link/wg1gkq"
       target="_blank"
-      className="fixed z-50 bottom-20 right-6"
+      className="fixed z-50 bottom-[2vh] right-4"
     >
       <Image
         src="/icons/icone-wtpp.svg"
