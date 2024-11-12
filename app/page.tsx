@@ -48,11 +48,7 @@ const BannerSection = () => {
           de orientação prática. A mentoria oferece implementação prática,
           gestão de tráfego e acompanhamento individual.
         </p>
-        <a
-          className="w-full max-w-[312px]"
-          href="https://pay.kiwify.com.br/QR59cLu"
-          target="_blank"
-        >
+        <a className="w-full max-w-[312px]" href="#sale-section">
           <Button className="text-white rounded-none w-full bg-blue-800 hover:bg-blue-700">
             Garantir proposta
             <ArrowUpRight />
@@ -199,7 +195,7 @@ const VideoSection = () => {
 
 const SaleSection = () => {
   return (
-    <section className="px-4 py-8 bg-blue-700">
+    <section id="sale-section" className="px-4 py-8 bg-blue-700">
       <div className="max-w-6xl mx-auto flex flex-col gap-6 items-start md:flex-row">
         <div className="w-full space-y-6 md:w-3/5">
           <h2 className="text-white text-2xl md:text-3xl font-semibold">
@@ -256,7 +252,7 @@ const SaleSection = () => {
             <span className="text-black text-4xl font-semibold">
               R$ 9.997,90
             </span>
-            <a href="https://pay.kiwify.com.br/QR59cLu" target="_blank">
+            <a href="https://payfast.greenn.com.br/86868" target="_blank">
               <Button className="text-white mt-4 mb-2 p-6 rounded-none w-full bg-blue-800 hover:bg-blue-700">
                 Adquira agora
                 <ArrowUpRight />
@@ -325,7 +321,7 @@ const FaqSection = () => {
               chama no Whatsapp
             </a>
           </p>
-          <a href="https://pay.kiwify.com.br/QR59cLu" target="_blank">
+          <a href="#sale-section">
             <Button className="text-white max-w-[320px] mt-4 mb-2 p-6 rounded-none w-full bg-blue-800 hover:bg-blue-700">
               Adquira agora
               <ArrowUpRight />
