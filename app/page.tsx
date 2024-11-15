@@ -252,7 +252,7 @@ const SaleSection = () => {
             <span className="text-black text-4xl font-semibold">
               R$ 9.997,90
             </span>
-            <a href="https://payfast.greenn.com.br/86868" target="_blank">
+            <a href="https://pay.cakto.com.br/AsDRWCF" target="_blank">
               <Button className="text-white mt-4 mb-2 p-6 rounded-none w-full bg-blue-800 hover:bg-blue-700">
                 Adquira agora
                 <ArrowUpRight />
