@@ -181,7 +181,7 @@ const AboutSection = () => {
   );
 };
 
-export const VideoSection = () => {
+const VideoSection = () => {
   return (
     <section className="px-4 py-8">
       <iframe

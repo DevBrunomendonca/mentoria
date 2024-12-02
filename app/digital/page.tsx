@@ -1,7 +1,6 @@
 import { ArrowUpRight, CheckCircle } from "lucide-react";
 import { Button } from "../_components/ui/button";
 import Image from "next/image";
-import { VideoSection } from "../page";
 import CardSale from "../_components/card-sale";
 
 const DigitalPage = () => {
@@ -10,7 +9,7 @@ const DigitalPage = () => {
       <SectionBannerDigital />
       <SectionAboutDigital />
       <SectionAboutPersonDigital />
-      <VideoSection />
+      <VideoSectionDigital />
       <SaleSectionDigital />
     </>
   );
@@ -38,7 +37,7 @@ const SectionBannerDigital = () => {
             criar vergonha e comprar esse passo a passo para no mínimo criar o
             seu primeiro produto ou mentoria.
           </p>
-          <a href="https://pay.cakto.com.br/AX5QSDf" target="_blank">
+          <a href="#sale-section">
             <Button className="text-white mt-4 max-w-96 mb-2 p-6 rounded-none w-full bg-blue-800 hover:bg-blue-700">
               Adquira agora
               <ArrowUpRight />
@@ -112,6 +111,18 @@ const SectionAboutPersonDigital = () => {
           height={432}
         />
       </div>
+    </section>
+  );
+};
+
+const VideoSectionDigital = () => {
+  return (
+    <section className="px-4 py-8">
+      <iframe
+        src="https://www.youtube.com/embed/q4hppPO7Vv8?si=NVJMeiFJWkYfvrKS"
+        className="w-full min-h-[650px] max-w-6xl mx-auto"
+        allowFullScreen
+      />
     </section>
   );
 };
