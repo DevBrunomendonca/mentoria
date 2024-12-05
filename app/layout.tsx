@@ -11,7 +11,7 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Fature 30k mensal no digital",
+  title: "Fature 100k mensal no digital",
   description:
     "Se você ainda não tem um produto digital que vende 24 horas por dia, está deixando dinheiro na mesa! Você não precisa de mais um curso, mas de orientação prática. A mentoria oferece implementação prática, gestão de tráfego e acompanhamento individual.",
 };
