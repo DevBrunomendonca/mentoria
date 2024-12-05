@@ -40,7 +40,7 @@ const BannerSection = () => {
           <p className="text-white text-sm font-light">CEO Adriano Camargo</p>
         </div>
         <h1 className="text-white font-semibold text-3xl max-w-[440px] md:text-5xl">
-          Fature 30k mensal no digital
+          Fature 100k mensal no digital
         </h1>
         <p className="text-white max-w-[480px] text-sm font-light">
           Se você ainda não tem um produto digital que vende 24 horas por dia,
