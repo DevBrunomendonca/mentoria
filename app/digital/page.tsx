@@ -163,7 +163,7 @@ const SaleSectionDigital = () => {
             50% OFF
           </span>
           <h3 className="text-black text-2xl font-medium md:text-3xl">
-            Black Novembro
+            Oferta de Natal
           </h3>
           <ul className="space-y-3">
             <li className="flex text-gray-500 gap-1 items-center">
