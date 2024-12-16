@@ -122,7 +122,7 @@ const AboutSection = () => {
                   Acompanhamento individual
                 </li>
                 <li className="list-disc text-xs text-gray-500">
-                  3 meses de projeto
+                  2 meses de projeto
                 </li>
                 <li className="list-disc text-xs text-gray-500">
                   2 encontros semanais via meet (ao vivo)
