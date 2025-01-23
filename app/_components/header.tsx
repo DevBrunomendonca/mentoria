@@ -36,7 +36,9 @@ const Header = () => {
         <span className="bg-[#F50056] px-[11px] py-1 rounded-3xl text-white text-xs">
           {formatTime(timeLeft)}
         </span>
-        <p className="text-white text-xs ">Oferta de natal 50% off</p>
+        <p className="text-white text-xs ">
+          Oferta Oferta Especial 2025 50% off
+        </p>
         <a href="#sale-section">
           <Button className="text-white text-xs p-0 font-light" variant="link">
             Garantir agora
