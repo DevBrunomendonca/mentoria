@@ -247,10 +247,10 @@ const SaleSection = () => {
           </ul>
           <div className="flex flex-col">
             <span className="text-gray-500 text-sm">
-              De R$: <s>19.997,00</s> por
+              De R$: <s>49.498,00</s> por
             </span>
             <span className="text-black text-4xl font-semibold">
-              R$ 9.997,90
+              R$ 24.749,00
             </span>
             <a href="https://pay.cakto.com.br/AsDRWCF" target="_blank">
               <Button className="text-white mt-4 mb-2 p-6 rounded-none w-full bg-blue-800 hover:bg-blue-700">
